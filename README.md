@@ -68,7 +68,7 @@ EDA was conducted to understand:
 - Correlation between variables
 
 ###  Price Distribution
-![priice_vs_brand](charts\Average_car_price_make.png)
+![priice_vs_brand](charts/Average_car_price_make.png)
 
 **Insight:**  
 Automobile prices show a right-skewed distribution, indicating the presence of high-end premium vehicles.
@@ -76,7 +76,7 @@ Automobile prices show a right-skewed distribution, indicating the presence of h
 ---
 
 ###  Correlation heat map
-![correlation](charts\correlation_heatmap.png)
+![correlation](charts/correlation_heatmap.png)
 
 **Insight:**  
 - Strong correlation between price and engine-size, horsepower, curb-weight  
@@ -86,7 +86,7 @@ Automobile prices show a right-skewed distribution, indicating the presence of h
 ---
 
 ###  Engine Size vs Price
-![Engine Size vs Price](charts\correlation_price_enginesize.png)
+![Engine Size vs Price](charts/correlation_price_enginesize.png)
 
 **Insight:**  
 A strong positive correlation exists between engine size and price — larger engines generally cost more.
@@ -94,7 +94,7 @@ A strong positive correlation exists between engine size and price — larger en
 ---
 
 ### Fuel Efficiency vs Price
-![City MPG vs Price](charts\correlation_price_highway-mpg.png)
+![City MPG vs Price](charts/correlation_price_highway-mpg.png)
 
 **Insight:**  
 Fuel-efficient vehicles (higher MPG) are generally priced lower, showing an inverse relationship.
@@ -120,7 +120,7 @@ Notebook: [model_development](model_development.ipynb)
 - multi linear regression  = 0.81643
 
 ###  Actual vs Predicted - Multi poly regression
-![multi_poly_regression](charts\model_actual_predicted_multi_poly_regression.png)
+![multi_poly_regression](charts/model_actual_predicted_multi_poly_regression.png)
 
 **Key Finding:**  
 Engine size, horsepower, mph are the most influential predictors of automobile price.
